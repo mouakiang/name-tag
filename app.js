@@ -3,15 +3,15 @@ const nameInput = document.getElementById('nameinput');
 const submitButton = document.getElementById('submitbutton');
 const nameDisplay = document.getElementById('nametag');
 
-console.log('nameInput', nameInput);
-console.log('submitButton', submitButton);
-console.log('nameDisplay', nameDisplay);
-
 /* Get DOM Elements */
 
 /* State */
 
 /* Events */
+submitButton.addEventListener('click', () => {
+    nameDisplay.textContent = nameInput.value;
+    nameInput.value = '';
+});
 
 /* Display Functions */
 
