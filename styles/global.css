@@ -33,3 +33,16 @@ header .logo {
 main {
     padding: 20px;
 }
+h2 {
+    color: white;
+}
+
+#nametag {
+    color: black;
+}
+
+.rectangle {
+    height: 250px;
+    width: 350px;
+    background-color: #555;
+}
